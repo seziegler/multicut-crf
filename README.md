@@ -4,9 +4,9 @@ Solving the Minimum Cost Multicut Problem (MP) [[1]](#1) is a popular way
 of obtaining a decomposition of a graph. Heuristics that solve the MP are
 usually time-expensive. Reducing the number of violations of the MP cycle
 constraints results in a more accurate decomposition and allows for using
-an efficient and simple connected component solver. [[2]](#2) incorporates cycle
+an efficient and simple connected component solver. Song et al. [[2]](#2) incorporate cycle
 information in an end-to-end trainable Conditional Random Field (CRF).
-This thesis extends the higher-order CRF by [[2]](#2) by including exponents
+This thesis extends the higher-order CRF by Song et al. [[2]](#2) by including exponents
 that are successively updated using a simulated annealing approach. In
 addition, it is combined with the RCF edge detector [[3]](#3) to create an end-to-end 
 trainable model for image segmentation. Models trained with the new
